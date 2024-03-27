@@ -13,43 +13,43 @@ const Projects = () => {
             id: 1,
             src: movies,
             text: "Movies Web App",
-            demoHref: 'https://github.com/Harish24-S',
-            codeHref: 'https://www.linkedin.com/in/harish-sarika/'
+            demoHref: 'https://hmovies24.netlify.app/',
+            codeHref: 'https://github.com/Harish24-S/HMovies_Project_CipherSchools/tree/main/movie-box'
         },
         {
             id: 2,
             src: notes,
             text: "Note-taking App",
-            demoHref: 'https://github.com/Harish24-S',
-            codeHref: 'https://www.linkedin.com/in/harish-sarika/'
+            demoHref: 'https://harish24-s.github.io/Note-Hub/',
+            codeHref: 'https://github.com/Harish24-S/Note-Hub'
         },
         {
             id: 3,
             src: canvas,
             text: "Canvas Paint App",
-            demoHref: 'https://github.com/Harish24-S',
-            codeHref: 'https://github.com/Harish24-S'
+            demoHref: 'https://harish24-s.github.io/Paint-Canvas/',
+            codeHref: 'https://github.com/Harish24-S/Paint-Canvas'
         },
         {
             id: 4,
             src: meditation,
             text: "Meditation Web App",
-            demoHref: 'https://github.com/Harish24-S',
-            codeHref: 'https://github.com/Harish24-S'
+            demoHref: 'https://harish24-s.github.io/Relax-Audio-app/',
+            codeHref: 'https://github.com/Harish24-S/Relax-Audio-app'
         },
         {
             id: 5,
             src: weather,
             text: "Weather App",
-            demoHref: 'https://github.com/Harish24-S',
-            codeHref: 'https://github.com/Harish24-S'
+            demoHref: 'https://harish24-s.github.io/Weather-using-JS/',
+            codeHref: 'https://github.com/Harish24-S/Weather-using-JS'
         },
         {
             id: 6,
             src: portfolio,
             text: "Personal Portfolio",
             demoHref: 'https://github.com/Harish24-S',
-            codeHref: 'https://github.com/Harish24-S'
+            codeHref: 'https://github.com/Harish24-S/portfolio'
         },
     ]
 
