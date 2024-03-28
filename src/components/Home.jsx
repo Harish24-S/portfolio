@@ -15,13 +15,12 @@ const Home = () => {
             I'm an aspiring Software Developer
           </h2>
           <p className="text-gray-500 py-4 max-w-md">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident
-            molestiae at repellendus officia itaque voluptatem ullam dolorem
-            veritatis corporis optio.
+          As a graduating Computer Science student, my enthusiasm for software & product development fuels my eagerness to create products that leave a significant mark in the industry.
+
           </p>
 
           <div>
-            <Link to="portfolio" smooth duration={500} className="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer">
+            <Link to="projects" smooth duration={500} className="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer">
               Portfolio
               <span className="pl-0.5 group-hover:rotate-90 duration-300">
                 <MdKeyboardDoubleArrowRight size={20} />
