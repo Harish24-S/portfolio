@@ -6,6 +6,7 @@ import notes from '../assets/portfolio/notes.png'
 import weather from '../assets/portfolio/weather.png'
 import portfolio from '../assets/portfolio/portfolio.png'
 
+
 const Projects = () => {
 
     const portfolios = [
@@ -54,7 +55,7 @@ const Projects = () => {
     ]
 
   return (
-    <div name="projects" className='bg-gradient-to-b from-black to-gray-800 text-white md:h-screen'>
+    <div name="projects" className='bg-gradient-to-b from-black to-gray-800 text-white md:h-screen py-10 md:py-1'>
         <div className='max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full'>
 
             <div className='pb-8'>
@@ -65,7 +66,7 @@ const Projects = () => {
             <div className='grid sm:grid-cols-2 md:grid-cols-3 px-12 sm:px-0 gap-8'>
                 {portfolios.map(({id, src, text, demoHref, codeHref}) => (
                     <div key={id} className='shadow-md shadow-gray-600 rounded-lg'>
-                        <a href='##' className="relative bg-gray-950 group">
+                        <a href={demoHref} className="relative bg-gray-950 group">
                             <img src={src} alt='' className='absolute group-hover:opacity-50 rounded-md duration-200 hover:scale-105' />
 
                             <div className="relative p-5">
