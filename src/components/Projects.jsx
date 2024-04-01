@@ -65,13 +65,13 @@ const Projects = () => {
 
             <div className='grid sm:grid-cols-2 md:grid-cols-3 px-12 sm:px-0 gap-8'>
                 {portfolios.map(({id, src, text, demoHref, codeHref}) => (
-                    <div key={id} className='shadow-md shadow-gray-600 rounded-lg'>
-                        <a href={demoHref} className="relative bg-gray-950 group">
-                            <img src={src} alt='' className='absolute group-hover:opacity-50 rounded-md duration-200 hover:scale-105' />
+                    <div key={id} className='shadow-md shadow-gray-600 rounded-lg duration-200 hover:scale-105'>
+                        <a href={demoHref} className="relative bg-gray-950 ">
+                            <img src={src} alt='' className='absolute opacity-50 rounded-md duration-200 hover:scale-105' />
 
                             <div className="relative p-5">
                                 <div className="mt-20">
-                                    <div className="transition-all transform translate-y-8 opacity-0 group-hover:opacity-100 group-hover:translate-y-0">
+                                    <div className="transition-all transform translate-y-8 opacity-100 ">
                                         <div class="p-2">
                                             <p class="text-2xl font-bold text-white">{text}</p>
                                     
@@ -83,10 +83,10 @@ const Projects = () => {
                         
                         <div className='flex items-center justify-center'>
                             <a href={demoHref} target='_blank' rel="noreferrer">
-                                <button className='w-1/2 px-6 py-3 m-2 duration-200 hover:scale-105'>Demo</button>
+                                <button className='w-1/2 px-6 py-3 m-2 duration-200 hover:scale-105 font-bold'>Demo</button>
                             </a>
                             <a href={codeHref} target='_blank' rel="noreferrer">
-                                <button className='w-1/2 px-6 py-3 m-2 duration-200 hover:scale-105'>Code</button>
+                                <button className='w-1/2 px-6 py-3 m-2 duration-200 hover:scale-105 font-bold'>Code</button>
                             </a>
                         </div>
                     </div>
