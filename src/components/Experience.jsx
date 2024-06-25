@@ -7,24 +7,24 @@ const Experience = () => {
     {
       id: 1,
       title: "UpGrad Campus",
-      subtitle: "Full Stack Development Intern",
-      date: "01/2024 - Present",
+      subtitle: "Front-end Development Intern",
+      date: "01/2024 - 05/2024",
       data: "UpGrad Campus is an affiliate of upGrad, India's largest online higher education company, Campus's goal is to make every graduate job-ready, with professional skills and practical know-how for sought-after fields of work.",
     },
     {
       id: 2,
-      title: "HealthPlix",
-      subtitle: "Product Management Intern",
-      date: "05/2022 - 07/2022",
-      data: "HealthPlix is India’s largest EMR platform used by 10K doctors, generating 100,000 prescriptions daily. HealthPlix has pioneered the digitization of healthcare through its future-ready AI-powered EMR platform for doctors in India.",
+      title: "Slamdunk.ai",
+      subtitle: "Web Development Intern",
+      date: "11/2023 - 12/2023",
+      data: "SlamDunk.ai is a next-generation AI coach platform to learn a new sport. Slamdunk.ai is powered by a custom, next-generation AI coach that runs on any device with a camera.",
     },
     {
       id: 3,
-      title: "Slamdunk.ai",
-      subtitle: "Web Development Intern",
-      date: "12/2021 - 02/2022",
-      data: "SlamDunk.ai is a next-generation AI coach platform to learn a new sport. Slamdunk.ai is powered by a custom, next-generation AI coach that runs on any device with a camera.",
-    },
+      title: "HealthPlix",
+      subtitle: "Data Analyst Intern",
+      date: "05/2023 - 07/2023",
+      data: "HealthPlix is India’s largest EMR platform used by 10K doctors, generating 100,000 prescriptions daily. HealthPlix has pioneered the digitization of healthcare through its future-ready AI-powered EMR platform for doctors in India.",
+    }
   ];
 
   const settings = {

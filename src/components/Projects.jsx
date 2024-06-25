@@ -5,6 +5,9 @@ import meditation from '../assets/portfolio/meditation.png'
 import notes from '../assets/portfolio/notes.png'
 import weather from '../assets/portfolio/weather.png'
 import portfolio from '../assets/portfolio/portfolio.png'
+// import Slider from "react-slick";
+// import "slick-carousel/slick/slick.css";
+// import "slick-carousel/slick/slick-theme.css";
 
 
 const Projects = () => {
@@ -54,6 +57,42 @@ const Projects = () => {
         },
     ]
 
+
+    // const settings = {
+    //     accessibility: true,
+    //     dots: true,
+    //     infinite: true,
+    //     speed: 500,
+    //     slidesToShow: 3,
+    //     slidesToScroll: 3,
+    //     responsive: [
+    //       {
+    //         breakpoint: 1024,
+    //         settings: {
+    //           slidesToShow: 3,
+    //           slidesToScroll: 3,
+    //           infinite: true,
+    //           dots: true,
+    //         },
+    //       },
+    //       {
+    //         breakpoint: 600,
+    //         settings: {
+    //           slidesToShow: 2,
+    //           slidesToScroll: 2,
+    //           initialSlide: 2,
+    //         },
+    //       },
+    //       {
+    //         breakpoint: 480,
+    //         settings: {
+    //           slidesToShow: 1,
+    //           slidesToScroll: 1,
+    //         },
+    //       },
+    //     ],
+    //   };
+
   return (
     <div name="projects" className='bg-gradient-to-b from-black to-gray-800 text-white md:h-screen py-10 md:py-1'>
         <div className='max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full'>
@@ -64,6 +103,7 @@ const Projects = () => {
             </div>
 
             <div className='grid sm:grid-cols-2 md:grid-cols-3 px-12 sm:px-0 gap-8'>
+            {/* <Slider {...settings}> */}
                 {portfolios.map(({id, src, text, demoHref, codeHref}) => (
                     <div key={id} className='shadow-md shadow-gray-600 rounded-lg duration-200 hover:scale-105'>
                         <a href={demoHref} className="relative bg-gray-950 ">
@@ -93,6 +133,7 @@ const Projects = () => {
                 ))}
                 
             </div>
+            {/* </Slider> */}
 
         </div>
     </div>

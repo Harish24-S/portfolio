@@ -8,24 +8,21 @@ const About = () => {
           <p className="text-4xl font-bold inline border-b-4 border-gray-500">About</p>
         </div>
 
-        <p className="text-xl mt-20">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi iste
-          vitae praesentium. Magni ipsam illum voluptate et temporibus
-          necessitatibus consectetur delectus saepe praesentium sapiente ex
-          dolorem natus repellendus reprehenderit officiis error, nostrum vel
-          corrupti tempora eaque, neque facilis ducimus! Exercitationem laborum
-          quae ipsam soluta facilis eum fugit cupiditate repellendus voluptas.
+        <p className="text-l mt-20">
+        My name is Harish Sarika, and I am a recent graduate with a Bachelor's degree in Computer Science from Lovely Professional University.
+        Over the past four years, my passion for Web and Product development has grown, leading me to bring to life various projects. Notably, I crafted the "HMovies" website, a platform enabling users to seamlessly explore the latest movie and TV show trailers at one place. Additionally, I have also created a versatile password generator tool that empowers users to generate secure, randomized passwords based on specific criteria. 
         </p>
 
         <br />
 
-        <p className="text-xl">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum omnis
-          quis neque aliquam, atque doloremque suscipit repellendus. Est nisi,
-          facere hic aliquam consectetur minus rerum sed asperiores perferendis
-          inventore, perspiciatis distinctio delectus sunt praesentium vitae
-          illum labore aperiam magni at in nihil nostrum aut. Harum eaque ullam
-          maxime natus nobis!
+        <p className="text-l">
+        In addition to my project portfolio, I've had the privilege of collaborating with dynamic startups during my internships. I had the opportunity to contribute to the Healthplix team, spearheading the product feature of a refer & earn program and collaborating on its successful scaling to reach a wider audience and increased user engagement. My experience extended to SlamDunk, an US-based product, where I crafted their website utilizing no-code tools. Furthermore, I engaged with product marketing & consultancy startups such as TPCS & HighRadius, leveraging social media and partnerships to amplify their outreach to a wider audience fostering better brand recognition and market expansion.
+        </p>
+
+        <br />
+
+        <p className="text-l">
+        These projects and internships have helped me garner experience across multiple platforms giving an exposure to front-end development, product management, UI design, along with using new-age technologies for effective product development.
         </p>
       </div>
     </div>
